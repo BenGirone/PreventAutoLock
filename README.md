@@ -17,3 +17,7 @@ Prevents Windows and Linux From locking your PC. Many corporations force their e
   * Comment: Prevents Screen From Idling
   * Click Save
   * Reboot
+
+## Notes for Developers:
+  * Built with MinGW
+  * Built with the command: g++ PreventAutoLock.cpp -o noLock.exe -mwindows
