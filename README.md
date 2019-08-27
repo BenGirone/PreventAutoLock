@@ -1,5 +1,5 @@
 # PreventAutoLock
-Prevents Windows and Linux From locking your PC.
+Prevents Windows and Linux From locking your PC. Many corporations force their employees computers to lock after being left idle. These small programs simply double tap the number lock key every 60 seconds. This makes the operating system think the computer is not idle. 
 
 ## Windows Users:
   * Press "Windows key + r"
@@ -8,6 +8,7 @@ Prevents Windows and Linux From locking your PC.
   * Reboot
   
 ## Linux Users (only tested on Ubuntu):
+  * Run the command: sudo apt install xdotool
   * Open "Startup Applications"
   * Click Add
   * Name: noLock
