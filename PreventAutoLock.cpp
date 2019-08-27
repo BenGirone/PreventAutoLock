@@ -4,6 +4,7 @@
 // Windows 2000 and later, WINVER needs to be set as
 // follows so that SendInput gets defined when windows.h
 // is included below.
+#pragma comment(linker, "/SUBSYSTEM:WINDOWS")
 #define WINVER 0x0500
 #include <windows.h>
 
@@ -29,7 +30,10 @@ void pressKey(char keyCode)
     SendInput(1, &ip, sizeof(INPUT));
 }
 
-int main()
+int APIENTRY WinMain(HINSTANCE hInstance,
+                     HINSTANCE hPrevInstance,
+                     LPTSTR    lpCmdLine,
+                     int       nCmdShow)
 {
     // Loop infinitely
     while(true)
