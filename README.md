@@ -9,6 +9,7 @@ Prevents Windows and Linux From locking your PC. Many corporations force their e
   
 ## Linux Users (only tested on Ubuntu):
   * Run the command: sudo apt install xdotool
+  * Run the command: chmod 755 noLock.sh
   * Open "Startup Applications"
   * Click Add
   * Name: noLock
